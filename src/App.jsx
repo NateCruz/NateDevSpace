@@ -30,7 +30,7 @@ function App() {
         <p>wahoo</p>
       </div>
       <p className='read-the-docs'>
-        Click on the Vite and React logos to see something silly
+        Click on the Vite and React logos for a suprise.
       </p>
       <Footer />
     </>
