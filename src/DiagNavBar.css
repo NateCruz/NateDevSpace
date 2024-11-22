@@ -1,0 +1,19 @@
+.growable-div {
+  width: 100px; /* Initial width */
+  height: 100px; /* Initial height */
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  border-radius: 5px;
+  cursor: pointer;
+  transition: width 0.3s ease, height 0.3s ease; /* Smooth transition */
+}
+
+.growable-div.expanded {
+  width: 100vw; /* Grown width */
+  height: 100vh; /* Grown height */
+  background-color: rgb(0, 58, 128); /* Optional: Change color when expanded */
+}

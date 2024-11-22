@@ -52,19 +52,26 @@ function NavBar(args) {
                 GitHub
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
+            <UncontrolledDropdown nav inNavbar variant='dark'>
               <DropdownToggle
-                style={{ textAlign: "center", color: "orange" }}
+                style={{
+                  textAlign: "center",
+                  color: "orange",
+                }}
                 nav
                 caret
               >
                 Project Portfolio
               </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Advanced805</DropdownItem>
-                <DropdownItem>Guy With a Truck</DropdownItem>
+              <DropdownMenu right style={{ backgroundColor: "#444" }}>
+                <DropdownItem style={{ color: "orange" }}>
+                  Advanced805
+                </DropdownItem>
+                <DropdownItem style={{ color: "orange" }}>
+                  Guy With a Truck
+                </DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>Close</DropdownItem>
+                <DropdownItem style={{ color: "orange" }}>Close</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>

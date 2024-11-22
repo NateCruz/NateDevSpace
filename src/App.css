@@ -1,3 +1,7 @@
 .onhover.hoverButton {
   background-color: yellow;
 }
+
+.inverted-hover:hover {
+  filter: invert(1); /* Invert colors on hover */
+}
