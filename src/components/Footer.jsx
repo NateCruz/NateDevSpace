@@ -1,47 +1,31 @@
 const Footer = () => {
   return (
-    <div>
-      <p>Footer</p>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <p>Space</p>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <p>Space</p>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <p>Space</p>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <p>Space</p>
+    <div className='footer'>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
+      <h3>Goodbye</h3>
     </div>
   );
 };

@@ -1,6 +1,12 @@
 import DiagNavBar from "./DiagNavBar";
+import { Button, Popover, PopoverHeader, PopoverBody } from "reactstrap";
+import { useState } from "react";
 
 const Homepage = () => {
+  const [popoverOpen, setPopoverOpen] = useState(false);
+
+  const togglePopover = () => setPopoverOpen(!popoverOpen);
+
   return (
     <>
       <div style={{ display: "flex" }}>
@@ -60,6 +66,23 @@ const Homepage = () => {
         </div>
       </div>
       <DiagNavBar />
+      <div>
+        <Button id='Popover1' type='button' onClick={togglePopover}>
+          Launch Popover
+        </Button>
+        <Popover
+          isOpen={popoverOpen}
+          flip
+          target='Popover1'
+          toggle={togglePopover}
+        >
+          <PopoverHeader>Popover Title</PopoverHeader>
+          <PopoverBody>
+            Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+            Pellentesque ornare sem lacinia quam venenatis vestibulum.
+          </PopoverBody>
+        </Popover>
+      </div>
     </>
   );
 };

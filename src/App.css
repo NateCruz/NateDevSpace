@@ -5,3 +5,9 @@
 .inverted-hover:hover {
   filter: invert(1); /* Invert colors on hover */
 }
+
+.footer {
+  height: 1000px;
+  color: white;
+  background-color: #697565;
+}
