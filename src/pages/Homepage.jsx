@@ -1,5 +1,10 @@
+import StringLights from "../components/StringLights.jsx";
 const Homepage = () => {
-  return <div>hello world!!</div>;
+  return (
+    <>
+      <StringLights />
+    </>
+  );
 };
 
 export default Homepage;
